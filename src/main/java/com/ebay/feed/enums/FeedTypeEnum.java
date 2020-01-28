@@ -23,5 +23,7 @@ package com.ebay.feed.enums;
  */
 public enum FeedTypeEnum {
 
-  ITEM
+  ITEM,
+
+  ITEM_SNAPSHOT
 }

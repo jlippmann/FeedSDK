@@ -53,9 +53,11 @@ public class Constants {
   public static final String TRUE = "true";
   public static final String FALSE = "false";
   public static final String ITEM_RESOURCE_SCOPE = "item?feed_scope=";
+  public static final String ITEM_SNAPSHOT = "item_snapshot?";
   public static final String QUERY_PARAM_SEPARATOR = "&";
   public static final String QUERY_CATEGORY_ID = "category_id=";
   public static final String QUERY_DATE = "date=";
+  public static final String QUERY_SNAPSHOT_DATE = "snapshot_date=";
   public static final String MARKETPLACE_HEADER = "X-EBAY-C-MARKETPLACE-ID";
   public static final String CONTENT_TYPE_HEADER = "Content-type";
   public static final String ACCEPT_HEADER = "Accept";

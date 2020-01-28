@@ -27,7 +27,7 @@ import com.ebay.feed.enums.FeedTypeEnum;
   <li><b>date</b> - The date parameter for the feed file. Optional for bootstrap feed files</li>
   <li><b>feedScope</b> - Scope of the feed file - ALL_ACTIVE or NEWLY_LISTED</li>
   <li><b>token</b> - OAuth token</li>
-  <li><b>type</b> - Currently supported - ITEM</li>
+  <li><b>type</b> - either ITEM for base or daily feed files (see feedScope) or ITEM_SNAPSHOT for hourly feed files</li>
   </ul>
   </div>
  * @author shanganesh
